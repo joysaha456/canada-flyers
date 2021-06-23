@@ -1,0 +1,51 @@
+// @media (max-width:1200px)
+@media (max-width:1200px) {
+    .page-banner {
+        .page-breadcrumb {
+            --height: 200px;
+        }
+    }
+
+    .navbar {
+
+        .nav-item {
+            .nav-link {
+                color: #333;
+                padding: 6px 5px;
+
+                svg>path {
+                    fill: #333;
+                }
+            }
+        }
+    }
+
+    .ad-title {
+        font-size: 24px;
+    }
+}
+
+
+// @media (max-width:768px)
+@media (max-width:768px) {
+    a.navbar-brand {
+        >img {
+            max-width: 225px;
+            width: auto;
+        }
+    }
+
+    .page-banner {
+        .page-breadcrumb {
+            --height: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+
+    .section-header {
+        .title {
+            font-size: 30px;
+        }
+    }
+}
